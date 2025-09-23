@@ -1,0 +1,27 @@
+Conclusiones del Ejercicio de Automatización E2E - SauceDemo
+
+Autor: Francis Anahole
+Fecha: 23/09/2025
+
+1. Hallazgos principales:
+
+- El flujo de compra de dos productos en SauceDemo funciona correctamente cuando se usan credenciales válidas (usuario estándar).
+- La interacción con los elementos de la página (login, agregar productos, checkout) se pudo automatizar usando Serenity BDD con el patrón Screenplay.
+- Se identificó un error inicial en la definición del step de Cucumber para la validación del mensaje de confirmación de la compra, el cual fue corregido ajustando el texto esperado a "Thank you for your order!".
+- Los reportes generados por Serenity permiten visualizar claramente los pasos ejecutados, el estado de cada escenario y evidencias de las acciones realizadas.
+- Se observó que la compatibilidad de la versión de Chrome con Selenium/CDP puede generar advertencias, aunque no impide la ejecución de los tests.
+
+2. Conclusiones:
+
+- La automatización con Serenity BDD y Screenplay proporciona un flujo legible, modular y escalable para pruebas E2E.
+- La integración con Cucumber facilita la comunicación con stakeholders, ya que los escenarios se escriben en lenguaje natural (Gherkin).
+- Es importante siempre validar que los textos y elementos esperados coincidan exactamente con los de la aplicación para evitar errores de assertions.
+- La generación de reportes detallados es una ventaja para la revisión de resultados y la trazabilidad de los escenarios automatizados.
+- Este ejercicio refuerza la importancia de mantener la configuración de dependencias y drivers actualizados para asegurar compatibilidad con los navegadores.
+
+3. Recomendaciones:
+
+- Mantener la documentación de los pasos y configuraciones necesarias en el README para facilitar la reproducibilidad del proyecto.
+- Considerar el uso de validaciones más flexibles (por ejemplo, contains en lugar de equals) para mensajes que puedan cambiar ligeramente.
+- Revisar periódicamente las versiones de Chrome y Selenium para minimizar advertencias de compatibilidad.
+- Continuar extendiendo la cobertura de pruebas a otros flujos de la aplicación para robustecer la suite de pruebas automatizadas.

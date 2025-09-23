@@ -1,0 +1,63 @@
+Proyecto de Automatización E2E - SauceDemo
+
+Este proyecto implementa pruebas automatizadas de extremo a extremo
+(E2E) sobre la aplicación SauceDemo, utilizando Serenity BDD, Cucumber y
+el patrón Screenplay.
+
+------------------------------------------------------------------------
+
+📌 1. Prerrequisitos
+
+Antes de ejecutar el proyecto asegúrate de tener instalado y
+configurado:
+
+-   Sistema operativo: Windows 10 / 11 (también compatible con
+    Linux/Mac)
+-   IDE recomendado: IntelliJ IDEA 2023.1 (o superior)
+-   Java JDK 1.8 (configurado en la variable de entorno JAVA_HOME)
+-   Maven 3.8.6 (configurado en la variable de entorno MAVEN_HOME)
+-   Google Chrome (versión estable, idealmente actualizada)
+-   Git para clonar el repositorio
+
+------------------------------------------------------------------------
+
+📦 2. Instalación de dependencias
+
+Clonar el repositorio:
+
+    git clone https://github.com/tuusuario/saucedemo-serenity-E2E.git
+
+Instalar dependencias Maven:
+
+    mvn install -DskipTests
+
+------------------------------------------------------------------------
+
+▶️ 3. Ejecución de pruebas
+
+Ejecutar los tests con:
+
+    mvn clean verify
+
+------------------------------------------------------------------------
+
+📊 4. Reportes generados
+
+El reporte de Serenity se genera automáticamente en:
+
+    target/site/serenity/index.html
+
+Abrirlo en el navegador para ver los resultados de las pruebas.
+
+------------------------------------------------------------------------
+
+📚 Referencia
+
+Más información en la documentación oficial de Serenity BDD:
+👉 https://serenity-bdd.github.io/theserenitybook/latest/index.html
+
+------------------------------------------------------------------------
+
+✍️ Autor: Francis Anahole
+📧 anaholef@gmail.com
+

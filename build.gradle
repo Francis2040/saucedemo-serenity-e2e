@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'net.serenity-bdd.serenity-gradle-plugin' version '3.6.7'
+}
+
+group = 'com.nttdata'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.serenity-bdd:serenity-core:3.6.22'
+    implementation 'net.serenity-bdd:serenity-junit:3.6.22'
+    implementation 'net.serenity-bdd:serenity-cucumber:3.6.22'
+    implementation 'net.serenity-bdd:serenity-screenplay:3.6.22'
+    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:3.6.22'
+    implementation 'net.serenity-bdd:serenity-ensure:3.6.22'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.11.0'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.5.0'
+    implementation 'org.slf4j:slf4j-simple:2.0.7'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+test {
+    systemProperties System.getProperties()
+    systemProperty "webdriver.driver", "chrome"
+    systemProperty "headless.mode", "false"
+    systemProperty "chrome.switches", "--start-maximized"
+}
+
+tasks.withType(Test) {
+    systemProperties = System.properties as Map<String, ?>
+}
+
+serenity {
+    testRoot = "com.nttdata.runners"
+    requirementsBaseDir = "src/test/resources/features"
+}
