@@ -9,13 +9,21 @@ Este proyecto simula flujos reales de un usuario dentro del sitio web, validando
 ## 🧩 Estructura del proyecto
 
 📁 saucedemo-serenity-e2e
+
 ├── 📂 src
+
 │ ├── 📂 main/java/... # Clases base, Pages y Steps
+
 │ ├── 📂 test/java/... # Casos de prueba (features)
+
 ├── 📁 target/site/serenity # Reportes generados automáticamente
+
 ├── 🧾 build.gradle # Configuración de dependencias
+
 ├── ⚙️ gradlew / gradlew.bat # Ejecución de Gradle
+
 ├── 🗒️ README.md # Documentación del proyecto
+
 └── 🧾 conclusiones.txt # Observaciones y aprendizajes
 
 ---
@@ -93,7 +101,3 @@ Francis Anahole
 QA Automation Engineer
 
 📧 anaholef@gmail.com
-
-🔗 LinkedIn https://chatgpt.com/c/68e40efa-7008-8326-9646-397407271ffc#:~:text=anaholef%40gmail.com-,%F0%9F%94%97%20LinkedIn,-%F0%9F%92%BB%20GitHub
-
-💻 GitHub
