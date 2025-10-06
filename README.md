@@ -94,6 +94,6 @@ QA Automation Engineer
 
 📧 anaholef@gmail.com
 
-🔗 LinkedIn
+🔗 LinkedIn https://chatgpt.com/c/68e40efa-7008-8326-9646-397407271ffc#:~:text=anaholef%40gmail.com-,%F0%9F%94%97%20LinkedIn,-%F0%9F%92%BB%20GitHub
 
 💻 GitHub
