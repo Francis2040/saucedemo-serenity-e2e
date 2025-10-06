@@ -1,4 +1,4 @@
-# 🧪 Saucedemo Serenity E2E 🚀
+# 🧪 Automatización de Pruebas E2E con Serenity BDD y Cucumber en SauceDemo 🚀
 
 Proyecto de automatización de pruebas **End-to-End (E2E)** para la aplicación [**SauceDemo**](https://www.saucedemo.com/), desarrollado con **Serenity BDD**, **Gradle** y **Selenium WebDriver**.  
 
